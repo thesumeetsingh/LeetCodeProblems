@@ -9,14 +9,14 @@
  * }
  */
 public class _148SortList_Orderof1 {
-    
-class ListNode {
-      int val;
-      ListNode next;
-      ListNode() {}
-      ListNode(int val) { this.val = val; }
-      ListNode(int val, ListNode next) { this.val = val; this.next = next; }
- }
+
+    static class ListNode {
+        int val;
+        ListNode next;
+        ListNode() {}
+        ListNode(int val) { this.val = val; }
+        ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+    }
     public static ListNode mergeSort(ListNode head){
         if(head==null || head.next==null){
             return head;
@@ -38,7 +38,7 @@ class ListNode {
     }
 
     public static ListNode merge(ListNode leftHead, ListNode rightHead){
-        ListNode merged=new ListNode(-1);
+        ListNode merged=new ListNode(0);
         ListNode temp=merged;
 
         while(leftHead!=null && rightHead!=null){
