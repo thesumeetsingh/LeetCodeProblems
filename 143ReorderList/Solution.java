@@ -8,7 +8,8 @@
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
-public class _143ReorderList {
+public class Solution
+ {
 class ListNode {
      int val;
      ListNode next;
