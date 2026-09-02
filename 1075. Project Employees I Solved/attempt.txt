@@ -121,7 +121,7 @@ Seen this question in a real interview before?
 Yes
 No
 Accepted
-760,248/1.1M
+761,901/1.1M
 Acceptance Rate
 67.3%
 Topics
@@ -135,48 +135,6 @@ Choose a type
 
 
 
-
-
-
-Read more
-
-
-
-
-
-
-
-
-
-
-Read more
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Read more
-
-
-
-
-
-
-Read more
-
-
-
 Copyright © 2026 LeetCode. All rights reserved.
 
 1.1K
@@ -184,7 +142,7 @@ Copyright © 2026 LeetCode. All rights reserved.
 
 157
 
-29 Online
+11 Online
 MySQL
 Auto
 
@@ -194,15 +152,16 @@ Auto
 # Write your MySQL query statement below
 select p.project_id, round(avg(e.experience_years),2) as average_years from Project p left join Employee e on p.employee_id=e.employee_id group by p.project_id
 12
-Saved
+Restored from local
+Upgrade to Cloud Saving
 You must run your code first
+Run
+Ctrl
+'
+Run
+Ctrl
+'
 Search questions
 
 
-Run
-Ctrl
-'
-Run
-Ctrl
-'
 Run clicked — saving current attempt…
