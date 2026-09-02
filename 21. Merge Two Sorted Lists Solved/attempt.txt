@@ -40,6 +40,8 @@ Solutions
 Submissions
 Submissions
 Code
+Accepted
+Accepted
 Testcase
 Testcase
 Test Result
@@ -125,7 +127,7 @@ Copyright © 2026 LeetCode. All rights reserved.
 633
 
 230 Online
-C++
+Java
 Auto
 
 
@@ -134,23 +136,27 @@ Auto
 
 /**
  * Definition for singly-linked list.
- * struct ListNode {
+ * public class ListNode {
  *     int val;
- *     ListNode *next;
- *     ListNode() : val(0), next(nullptr) {}
- *     ListNode(int x) : val(x), next(nullptr) {}
- *     ListNode(int x, ListNode *next) : val(x), next(next) {}
- * };
+ *     ListNode next;
+ *     ListNode() {}
+ *     ListNode(int val) { this.val = val; }
+ *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ * }
  */
 class Solution {
-public:
-    ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) {
+    public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
         
     }
-};
-12345678910111213141516
+}
+1234567891011121314151617181920
 Saved
-You must run your code first
+Compile Error
+Line 15: Char 5: error: non-void function does not return a value [-Werror,-Wreturn-type]
+   15 |     }
+      |     ^
+1 error generated.
+ 
 Search questions
 
 
