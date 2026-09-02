@@ -102,7 +102,7 @@ Seen this question in a real interview before?
 Yes
 No
 Accepted
-1,233,594/1.6M
+1,234,029/1.6M
 Acceptance Rate
 75.2%
 Topics
@@ -138,7 +138,7 @@ Copyright © 2026 LeetCode. All rights reserved.
 
 213
 
-45 Online
+17 Online
 MySQL
 Auto
 
@@ -146,9 +146,10 @@ Auto
 
 
 # Write your MySQL query statement below
-
+select * from cinema where 0<>(id%2) and description<>'boring' order by rating desc
 12
-Saved
+Restored from local
+Upgrade to Cloud Saving
 You must run your code first
 Search questions
 
