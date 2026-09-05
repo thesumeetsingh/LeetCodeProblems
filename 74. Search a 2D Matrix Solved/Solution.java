@@ -1,0 +1,211 @@
+LeetCode Logo
+Problem List
+Debugging...
+Debugging...
+
+
+
+
+
+
+
+
+
+0
+
+avatar
+Avatar
+Sumeet Singh
+Access all features with our Premium subscription!
+myLists
+My Lists
+notebook
+Notebook
+progress
+Progress
+points
+Points
+Try New Features
+Orders
+My Playgrounds
+Settings
+Appearance
+Sign Out
+Premium
+Description
+Editorial
+Editorial
+Solutions
+Solutions
+Submissions
+Submissions
+Code
+Testcase
+Testcase
+Test Result
+74. Search a 2D Matrix
+Solved
+Medium
+Topics
+premium lock icon
+Companies
+You are given an m x n integer matrix matrix with the following two properties:
+
+Each row is sorted in non-decreasing order.
+The first integer of each row is greater than the last integer of the previous row.
+Given an integer target, return true if target is in matrix or false otherwise.
+
+You must write a solution in O(log(m * n)) time complexity.
+
+ 
+
+Example 1:
+
+
+Input: matrix = [[1,3,5,7],[10,11,16,20],[23,30,34,60]], target = 3
+Output: true
+Example 2:
+
+
+Input: matrix = [[1,3,5,7],[10,11,16,20],[23,30,34,60]], target = 13
+Output: false
+ 
+
+Constraints:
+
+m == matrix.length
+n == matrix[i].length
+1 <= m, n <= 100
+-104 <= matrix[i][j], target <= 104
+ 
+Seen this question in a real interview before?
+1/6
+Yes
+No
+Accepted
+3,098,988/5.7M
+Acceptance Rate
+54.4%
+Topics
+icon
+Companies
+Similar Questions
+Discussion (409)
+
+
+Choose a type
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Read more
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Read more
+
+
+
+
+Read more
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2026 LeetCode. All rights reserved.
+
+18.2K
+
+
+409
+
+162 Online
+Java
+Auto
+
+
+
+
+
+class Solution {
+    public boolean searchMatrix(int[][] matrix, int target) {
+        
+    }
+}
+1234567891011121314151617181920
+Saved
+Compile Error
+Line 4: error: missing return statement
+    }
+    ^
+ 
+Search questions
+
+
+Submit
+Ctrl
+Enter
+Submit
+Ctrl
+Enter
+Accepted — reading current code…
