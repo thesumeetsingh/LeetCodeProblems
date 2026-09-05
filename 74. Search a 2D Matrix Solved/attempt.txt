@@ -194,7 +194,7 @@ class Solution {
 }
 12345
 Saved
-You must run your code first
+You are submitting too frequently. Please try again later or Subscribe to Premium for shorter wait times.
 Search questions
 
 
