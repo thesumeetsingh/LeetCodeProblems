@@ -1,0 +1,149 @@
+LeetCode Logo
+Problem List
+Debugging...
+Debugging...
+
+
+
+
+
+
+
+
+
+0
+
+avatar
+Avatar
+Sumeet Singh
+Access all features with our Premium subscription!
+myLists
+My Lists
+notebook
+Notebook
+progress
+Progress
+points
+Points
+Try New Features
+Orders
+My Playgrounds
+Settings
+Appearance
+Sign Out
+Premium
+Description
+Editorial
+Editorial
+Solutions
+Solutions
+Submissions
+Submissions
+Code
+Accepted
+Accepted
+Testcase
+Testcase
+Test Result
+54. Spiral Matrix
+Solved
+Medium
+Topics
+premium lock icon
+Companies
+Hint
+Given an m x n matrix, return all elements of the matrix in spiral order.
+
+ 
+
+Example 1:
+
+
+Input: matrix = [[1,2,3],[4,5,6],[7,8,9]]
+Output: [1,2,3,6,9,8,7,4,5]
+Example 2:
+
+
+Input: matrix = [[1,2,3,4],[5,6,7,8],[9,10,11,12]]
+Output: [1,2,3,4,8,12,11,10,9,5,6,7]
+ 
+
+Constraints:
+
+m == matrix.length
+n == matrix[i].length
+1 <= m, n <= 10
+-100 <= matrix[i][j] <= 100
+ 
+Seen this question in a real interview before?
+1/6
+Yes
+No
+Accepted
+2,581,586/4.5M
+Acceptance Rate
+57.8%
+Topics
+icon
+Companies
+Hint 1
+Hint 2
+Hint 3
+Similar Questions
+Discussion (387)
+
+
+Choose a type
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2026 LeetCode. All rights reserved.
+
+17.8K
+
+
+387
+
+227 Online
+Java
+Auto
+
+
+
+
+
+class Solution {
+    public List<Integer> spiralOrder(int[][] matrix) {
+        
+    }
+}
+1234567891011121314151617181920
+Saved
+You must run your code first
+Search questions
+
+
+Run
+Ctrl
+'
+Run
+Ctrl
+'
+Run clicked — saving current attempt…
