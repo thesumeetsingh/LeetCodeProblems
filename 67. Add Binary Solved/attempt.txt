@@ -1,0 +1,156 @@
+LeetCode Logo
+Problem List
+Debugging...
+Debugging...
+
+
+
+
+
+
+
+
+
+
+0
+
+avatar
+Avatar
+Sumeet Singh
+Access all features with our Premium subscription!
+myLists
+My Lists
+notebook
+Notebook
+progress
+Progress
+points
+Points
+Try New Features
+Orders
+My Playgrounds
+Settings
+Appearance
+Sign Out
+Premium
+Description
+Editorial
+Editorial
+Solutions
+Solutions
+Submissions
+Submissions
+Code
+Accepted
+Accepted
+Testcase
+Testcase
+Test Result
+67. Add Binary
+Solved
+Easy
+Topics
+premium lock icon
+Companies
+Given two binary strings a and b, return their sum as a binary string.
+
+ 
+
+Example 1:
+
+Input: a = "11", b = "1"
+Output: "100"
+Example 2:
+
+Input: a = "1010", b = "1011"
+Output: "10101"
+ 
+
+Constraints:
+
+1 <= a.length, b.length <= 104
+a and b consist only of '0' or '1' characters.
+Each string does not contain leading zeros except for the zero itself.
+ 
+Discover more
+Take Journalism Courses
+Computer Programming Books
+Learn Coding Online
+Programming Problem Sets
+Programming Career Guide
+Discover Lesson Plans
+Developer Tools
+Get Study Guides
+Online Training Courses
+Programming Career Coaching
+Seen this question in a real interview before?
+1/6
+Yes
+No
+Accepted
+2,480,522/4.2M
+Acceptance Rate
+58.6%
+Topics
+icon
+Companies
+Similar Questions
+Discussion (425)
+
+
+Choose a type
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Read more
+
+
+
+
+
+
+Read more
+Copyright © 2026 LeetCode. All rights reserved.
+
+10.9K
+
+
+425
+
+85 Online
+Java
+Auto
+
+
+
+
+
+class Solution {
+    public String addBinary(String a, String b) {
+        
+    }
+}
+1234567891011121314151617181920
+Saving...
+You must run your code first
+Search questions
+
+
+Run
+Ctrl
+'
+Run
+Ctrl
+'
+Run clicked — saving current attempt…
