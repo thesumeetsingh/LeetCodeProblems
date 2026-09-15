@@ -1,0 +1,179 @@
+LeetCode Logo
+Problem List
+Debugging...
+Debugging...
+
+
+
+
+
+
+
+
+
+
+0
+
+avatar
+Avatar
+Sumeet Singh
+Access all features with our Premium subscription!
+myLists
+My Lists
+notebook
+Notebook
+progress
+Progress
+points
+Points
+Try New Features
+Orders
+My Playgrounds
+Settings
+Appearance
+Sign Out
+Premium
+Description
+Editorial
+Editorial
+Solutions
+Solutions
+Submissions
+Submissions
+Code
+Testcase
+Testcase
+Test Result
+167. Two Sum II - Input Array Is Sorted
+Solved
+Medium
+Topics
+premium lock icon
+Companies
+Given a 1-indexed array of integers numbers that is already sorted in non-decreasing order, find two numbers such that they add up to a specific target number. Let these two numbers be numbers[index1] and numbers[index2] where 1 <= index1 < index2 <= numbers.length.
+
+Return the indices of the two numbers index1 and index2, each incremented by one, as an integer array [index1, index2] of length 2.
+
+The tests are generated such that there is exactly one solution. You may not use the same element twice.
+
+Your solution must use only constant extra space.
+
+ 
+
+Example 1:
+
+Input: numbers = [2,7,11,15], target = 9
+Output: [1,2]
+Explanation: The sum of 2 and 7 is 9. Therefore, index1 = 1, index2 = 2. We return [1, 2].
+Example 2:
+
+Input: numbers = [2,3,4], target = 6
+Output: [1,3]
+Explanation: The sum of 2 and 4 is 6. Therefore index1 = 1, index2 = 3. We return [1, 3].
+Example 3:
+
+Input: numbers = [-1,0], target = -1
+Output: [1,2]
+Explanation: The sum of -1 and 0 is -1. Therefore index1 = 1, index2 = 2. We return [1, 2].
+ 
+
+Constraints:
+
+2 <= numbers.length <= 3 * 104
+-1000 <= numbers[i] <= 1000
+numbers is sorted in non-decreasing order.
+-1000 <= target <= 1000
+The tests are generated such that there is exactly one solution.
+ 
+Seen this question in a real interview before?
+1/6
+Yes
+No
+Accepted
+3,757,033/5.7M
+Acceptance Rate
+65.9%
+Topics
+icon
+Companies
+Similar Questions
+Discussion (489)
+
+
+Choose a type
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2026 LeetCode. All rights reserved.
+
+13.9K
+
+
+489
+
+209 Online
+Java
+Auto
+
+
+
+
+
+class Solution {
+    public int[] twoSum(int[] numbers, int target) {
+        
+    }
+}
+1234567891011121314151617181920
+Saved
+Accepted
+Runtime: 0 ms
+Case 1
+Case 2
+Case 3
+Input
+numbers =
+[2,7,11,15]
+target =
+9
+Output
+[1,2]
+Expected
+[1,2]
+Contribute a testcase
+Search questions
+
+
+Submit
+Ctrl
+Enter
+Submit
+Ctrl
+Enter
+Accepted — reading current code…
