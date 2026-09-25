@@ -121,7 +121,7 @@ Copyright © 2026 LeetCode. All rights reserved.
 
 237
 
-21 Online
+20 Online
 Java
 Auto
 
@@ -129,12 +129,7 @@ Auto
 
 
 
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
+  TreeNode right;
  *     TreeNode() {}
  *     TreeNode(int val) { this.val = val; }
  *     TreeNode(int val, TreeNode left, TreeNode right) {
@@ -146,10 +141,18 @@ Auto
  */
 class Solution {
     public int countNodes(TreeNode root) {
-        
+        if(root==null){
+            return 0;
+        }
+
+
+        int leftNode=countNodes(root.left);
+        int rightNode=countNodes(root.right);
+
+        return leftNode+rightNode+1;
     }
 }
-1234567891011121314151617181920
+13141516171819202122232425262728
 Saved
 Accepted
 Runtime: 0 ms
