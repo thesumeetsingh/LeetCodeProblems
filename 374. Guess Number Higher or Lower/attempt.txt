@@ -1,1 +1,1 @@
-        return pick;
+                pick=pick-pick/2;
