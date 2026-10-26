@@ -1,1 +1,1 @@
-select p.product_id, p.product name from product p, sales s where s.sale_date>= '2019-01-01' and s.sale_date<='2019-03-31' and s.product_id=p.product.id;
+select p.product_id, p.product_name from product p, sales s where s.sale_date>= '2019-01-01' and s.sale_date<='2019-03-31' and s.product_id=p.product_id and p.product_id not in (select p.product_id from product p, sales s where s.sale_date<'2019-01-01' and s.sale_date>'2019-03-31');
