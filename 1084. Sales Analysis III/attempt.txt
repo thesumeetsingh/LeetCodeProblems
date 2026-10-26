@@ -1,1 +1,1 @@
-select product_id, product name from product p, sales s where s.sale_date>= '2019-01-01' and s.sale_date<='2019-03-31' and s.product_id=p.product.id;
+select p.product_id, p.product name from product p, sales s where s.sale_date>= '2019-01-01' and s.sale_date<='2019-03-31' and s.product_id=p.product.id;
