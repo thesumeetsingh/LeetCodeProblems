@@ -1,0 +1,1 @@
+select actor_id, director_id from actordirector where actor_id=director_id group by actor id having count(actor_id)>2;
