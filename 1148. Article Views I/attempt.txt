@@ -1,0 +1,163 @@
+LeetCode Logo
+Database
+Debugging...
+Debugging...
+
+
+
+
+
+
+
+
+
+
+0
+
+avatar
+Avatar
+Sumeet Singh
+Access all features with our Premium subscription!
+myLists
+My Lists
+favorites
+Favorites
+notebook
+Notebook
+progress
+Progress
+points
+Points
+Try New Features
+Orders
+My Playgrounds
+Settings
+Appearance
+Sign Out
+Premium
+Description
+Editorial
+Editorial
+Solutions
+Solutions
+Submissions
+Submissions
+Code
+Testcase
+Testcase
+Test Result
+1148. Article Views I
+Easy
+Topics
+premium lock icon
+Companies
+SQL Schema
+Pandas Schema
+Table: Views
+
++---------------+---------+
+| Column Name   | Type    |
++---------------+---------+
+| article_id    | int     |
+| author_id     | int     |
+| viewer_id     | int     |
+| view_date     | date    |
++---------------+---------+
+There is no primary key (column with unique values) for this table, the table may have duplicate rows.
+Each row of this table indicates that some viewer viewed an article (written by some author) on some date. 
+Note that equal author_id and viewer_id indicate the same person.
+ 
+
+Write a solution to find all the authors that viewed at least one of their own articles.
+
+Return the result table sorted by id in ascending order.
+
+The result format is in the following example.
+
+ 
+
+Example 1:
+
+Input: 
+Views table:
++------------+-----------+-----------+------------+
+| article_id | author_id | viewer_id | view_date  |
++------------+-----------+-----------+------------+
+| 1          | 3         | 5         | 2019-08-01 |
+| 1          | 3         | 6         | 2019-08-02 |
+| 2          | 7         | 7         | 2019-08-01 |
+| 2          | 7         | 6         | 2019-08-02 |
+| 4          | 7         | 1         | 2019-07-22 |
+| 3          | 4         | 4         | 2019-07-21 |
+| 3          | 4         | 4         | 2019-07-21 |
++------------+-----------+-----------+------------+
+Output: 
++------+
+| id   |
++------+
+| 4    |
+| 7    |
++------+
+ 
+Seen this question in a real interview before?
+1/6
+Yes
+No
+Accepted
+1,863,515/2.4M
+Acceptance Rate
+77.0%
+Topics
+icon
+Companies
+Discussion (341)
+
+
+Choose a type
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Read more
+
+Copyright © 2026 LeetCode. All rights reserved.
+
+2.4K
+
+
+341
+
+13 Online
+MySQL
+Auto
+
+
+
+
+# Write your MySQL query statement below
+select author_id as id from views v, views w where v.author_id=w.viewer_id order by id;
+12
+Saved
+You must run your code first
+Search questions
+
+
+Run clicked — saving current attempt…
