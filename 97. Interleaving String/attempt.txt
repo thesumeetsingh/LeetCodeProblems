@@ -1,1 +1,1 @@
-            if(set.containsKey(ch)) set.put(ch, set.get(ch)+1);
+        ch='a';
