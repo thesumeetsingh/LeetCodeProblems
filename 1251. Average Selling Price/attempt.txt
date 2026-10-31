@@ -1,1 +1,1 @@
-select avg(p.price) as average_price from unitssold u, prices p where u.product_id=p.product_id group by p.product_id;
+select p.product_id as product_id, avg(p.price) as average_price from unitssold u, prices p where u.product_id=p.product_id group by p.product_id;
