@@ -1,0 +1,6 @@
+class Solution {
+    public boolean isInterleave(String s1, String s2, String s3) {
+        int ptr3=0,ptr2=0,ptr1=0;
+        
+    }
+}
