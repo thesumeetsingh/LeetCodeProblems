@@ -1,1 +1,1 @@
-        return false;
+        while(ptr3<s3.length() && ptr1<s1.length() && ptr2<s2.length()){
